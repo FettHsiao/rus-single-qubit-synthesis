@@ -1,0 +1,21 @@
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.nfs*
+
+# Generated datasets, reports, and circuits
+/.output_registry.*
+.rus-output.json
+/VALIDATION*.json
+/outputs/
+out/
+out_*/
+/draw/
+/composition/lookup_z/
+/composition/hybrid_z/
+/composition/hybrid_estimate_z/
+*.qasm
+*.qpy
