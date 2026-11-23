@@ -2,8 +2,8 @@
 
 This project is an independent reproduction of Adam Paetznick and Krysta M. Svore's *Repeat-Until-Success: Non-deterministic decomposition of single-qubit unitaries*. It implements a Qiskit-based workflow for finding Clifford+T repeat-until-success (RUS) circuits, reducing their expected T count, and composing them to approximate target single-qubit unitaries. [Paper and bibliographic record](https://arxiv.org/abs/1311.1074v2)
 
-**Author** · Hsien Fu, Hsiao  
-**Computer Science Group, [Graduate Institute of Electrical Engineering, National Taiwan University](https://giee.ntu.edu.tw/)**
+**Author** · Hsien-Fu Hsiao  
+**Computer Science Group, Graduate Institute of Electrical Engineering, National Taiwan University**
 
 The workflow covers the one-ancilla direct search in §4, amplitude amplification in §3.3, the statistics in §5 and Fig. 5, and database-based synthesis in §6.2. It also exports the circuits from Figs. 8 and 9 and provides the §6.1 resource estimate. [Paper PDF](https://arxiv.org/pdf/1311.1074v2)
 
@@ -208,9 +208,13 @@ python -B clean_outputs.py --all --yes
 
 `--all` discovers generated datasets and caches inside the repository. `--dirs PATH [PATH ...]` selects registered output directories explicitly. The commands above cover the registered pipeline outputs. For the quick-start run and standalone diagnostic files, the entire `outputs/demo/` directory is disposable.
 
+## License
+
+This implementation is released under the MIT License. See [LICENSE](LICENSE).
+
 ## Citation
 
-Cite the original paper for the RUS method and credit Hsien Fu, Hsiao for this implementation.
+Cite the original paper for the RUS method and credit Hsien-Fu Hsiao for this implementation.
 
 ```bibtex
 @article{paetznick2014repeat,
